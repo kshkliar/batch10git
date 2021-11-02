@@ -1,0 +1,61 @@
+Class 4
+
+Casting in Java:
+
+	Widening/Implicit/Automatic Casting: (small -> to big)
+
+		double bigBox=1288;
+		System.out.println(bigBox); //1288.0
+
+		int r=10/3; //3
+
+		double res=10/3;
+
+	Narrowring/Explicit/Manualy Casting:(big -> to small)
+
+	int i=(int)10.89;
+	System.out.println(i); //10
+
+if statement:
+
+if (boolean condition){
+	code ...
+}
+
+-------------------------------
+
+if (boolean condition){
+	code ...A
+} else {
+	code ...B
+}
+
+-------------------------
+
+if (boolean condition){
+	code ...A
+} else if (boolean condition){
+	code ...B
+}else if (boolean condition){
+	code ...C
+}else if (boolean condition){
+	code ...D
+} else {
+
+}
+----------------------------
+
+Nested If:
+
+if (boolean condition) {
+
+	code ....
+
+	if (boolean condition) {
+
+		code...
+	}
+}
+
+Scanner - class that allows to take an input from a user
+

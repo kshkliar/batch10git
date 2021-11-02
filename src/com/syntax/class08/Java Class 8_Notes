@@ -1,0 +1,55 @@
+
+while
+do while
+
+Both do and while use when we do not know how many times we want to repeat same block of code
+
+WHILE SYNTAX:
+
+while(boolean condition) {
+	
+	code to be repeated;
+}
+
+DO WHILE SYNTAX:
+
+do {
+	code to be repeated;
+
+}while(boolean condition);
+
+-------------------------------------------------------
+
+for loop - used when we know in advance how many times we want to repeat same block of code
+
+FOR SYNTAX:
+
+for(initialization; condition; increment/decrement) {
+	
+	code to be repeated;
+}
+
+break is keyword that can be used inside any loop --> it exist loop body (loop block of code). If there is any other code below the break --> that code will be skipped.
+
+------------------------------------------------------------------------
+
+Nested Loop - loop inside another loop
+
+for (int i=1; i<=3; i++){
+	
+	SOPln("I am i loop ");
+
+	for (int j=0; j<=3; j++){
+
+		SOPln("I am j loop ");
+	}
+
+}
+
+
+
+
+
+
+
+

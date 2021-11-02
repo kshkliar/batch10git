@@ -1,0 +1,8 @@
+File Handling:
+Reading and writing data to files using different java classes.
+like FileInputStream, FileOutputStream, Properties and XSSFWorkBook.
+FileInputStream is used to read the data from a file and
+FileOutputStream is used to write the data to the file.
+Notes.
+Before we write the data to any file we should always load the data
+from that file first otherwise it will be overwritten.

@@ -1,0 +1,54 @@
+"this" keyword:
+We can use this keyword to differentiate between local and instance variables.
+class Car{
+String make;
+String model;
+int year;
+Car(String make,String model, int year){
+String make="Honda";
+this.make=make;
+this.model=model;
+this.year=year;
+}
+
+void (){
+int year=2021;
+String make="Honda";
+String model="Civic";
+System.out.println(this.make+this.model+this.year)
+
+}
+
+}
+"this()"
+we can use this() to refer to the constructors of the class
+if we have multiple constructors java will decide based on the parameters
+which constructor to call.
+this keyword to call the methods
+==================================================
+Inheritance:
+is mechanism in java through which we can access all the fields and methods from one
+class inside another class
+We use extends keyword to inherit the properties and methods
+Advantages:
+we can avoid code duplication
+it improves the performance
+it reduces the amount of memory required to run the program.
+Disadvantages:
+Parent child classes are tightly coupled if we make any changes we must change the child
+classes as well otherwise code may beak.
+Types of inheritance
+1) Single inheritance
+one single parent class and one single child class.
+2) Multilevel inheritance
+we have chain of classes inheriting from each other for example
+class C=> class B=> class A
+3) Hierarchical inheritance:
+one parent class and multiple child classes
+
+
+
+
+
+
+

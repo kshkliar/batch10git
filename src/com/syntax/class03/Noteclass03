@@ -1,0 +1,81 @@
+Class 3
+
+String str;
+
+String str="Hello";//error
+
+str="Hello";
+
+String s="Good Morning!"
+String num="123";
+
+String name="Enes";
+char c='!';
+
+System.out.println(s+name+c); //Good Morning!Enes!
+
+int result=10+20;
+
+int num=1;
+int num1=2;
+
+System.out.println(s+num+num1);
+
+c='A'; //ASCI
+
+num+=120;
+System.out.printl(num); -->121 
+
+
+Casting in JAVA:
+widening/implicit/automatic 
+
+byte-> short -> int-> long-> float -> double
+
+narrowing/explicit/manual
+
+double -> float -> long -> int -> short ->byte
+
+Operators in JAVA:
+
+= assignment opr
++, -, *, /, % --> arithmetic opr
+
+relational operators:
+>, >=, <, <=, ==, !=
+
+if statement syntax:
+
+if (true) {
+	 code....;
+}
+
+--------------------------
+
+if (true) {
+	code ...A;
+}else {
+	code ...B;
+}
+
+------------------------------------------
+
+int num1=20;
+int num2=20;
+
+if (num1>num2){
+	System.out.println(num1 is larger than num2);
+} else {
+	System.out.println(num2 is larger than num1);
+}
+
+
+If you have multiple conditions to test
+
+if (condition) {
+	code .....
+} else if (condition){
+	code...
+}else {
+	code...
+}

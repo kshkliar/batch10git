@@ -1,0 +1,48 @@
+Method overloading in java:
+Method overloading is when we have same name of a method inside a class
+but with different type, number or sequence of parameters.
+We overload method to reuse code and write cleaner code.
+
+class Overload{
+
+void hello(){
+}
+void hello(String name){
+//overloading by changing number of parameters
+}
+void hello(String [] names){
+//overloading with different type of parameters
+}
+]
+void hello(String [] names,String name){
+//overloading by changing number of parameters
+}
+void hello(String name,String [] names){
+//overloading by changing sequence
+}
+
+}
+Method overloading rules Rules:
+    1) To overload we must have at least two methods with same name inside a class
+    2) we can not overload a method by just changing the return type
+    3) we can not overload by just changing the access modifier
+    4) static methods can also be overloaded
+    5) We can also overload the constructor of a class
+Var agrs
+is a mechanism in java through which we can handle arrays and multi arguments of same type
+in a method parameter.
+we can treat the var agrs same as an array inside the method
+
+void (String ... names){
+sout names[0];
+sout names.length
+for (int i=0; i<names.length;i++){
+sout names[i];
+}
+}
+}
+interview question:
+Can we overload main method:
+Yes, you can overload main method in Java.
+ But the program doesn't execute the overloaded main method when you run your
+ program, you have to call the overloaded main method from the actual main method

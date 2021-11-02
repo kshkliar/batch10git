@@ -1,0 +1,35 @@
+Recap:
+Abstraction:
+Process of hiding implementation details and showing only the functionality
+to the user is called abstraction in java:
+We can achieve abstraction in java using abstract classes and interfaces
+Abstract:
+Abstract classes are classes with abstract keyword
+1) we can have defined and undefined methods in abstract classes.
+2) we can not create the objects of abstract classes directly, but we can create
+it indirectly with the help of inheritance.
+Interfaces:
+are contracts in java all the classes which implement an interface must provide the
+implementation for the abstract methods in that are defined in interface or that class
+must be declared abstract.
+Interface Properties:
+all the variables are public static and final
+all the methods are public abstract by default
+Encapsulation:
+Encapsulation in java is hiding the fields of a class by making them private and
+providing the getters and setters to read and write those fields
+Encapsulation provides security we can write different validation steps before
+values are assigned to the fields of a class. We can also write logic to provide
+restricted access to these fields
+=========================================================================
+Problem with primitive variables
+they can only hold a single value at a time.
+int a=10;
+we can solve this problem with the help of arrays.
+Arrays can hold multiple values in a single variable.
+Issues with arrays
+Fixed in size
+
+
+
+

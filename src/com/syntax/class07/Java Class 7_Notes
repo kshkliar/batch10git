@@ -1,0 +1,50 @@
+Class 7
+
+		String
+switch(variable){
+
+	case "a": 
+			code;
+			break;
+	case "b":
+			code;
+			break;
+	default:
+			code;
+}
+
+		 int
+switch(variable){
+
+	case 1: 
+			code;
+			break;
+	case 2:
+			code;
+			break;
+	default:
+			code;
+}
+
+switch case LIMITATIONS:
+		cannot work with Logical and Relational operators
+		boolean float double long we can not be used
+
+Loops in JAVA:
+	while
+	do while
+	for
+	for each loop/advanced for loop/enhanced for loop
+
+while and do while loop repeat block of code as long as the condition is true!
+
+while first checks the condition and only then executes block of code
+do while executes block of code and only then check the condition
+
+Do loop executes code at least ONCE even when condition is FALSE
+
+While and do while loops are used WHEN WE DO NOT KNOW IN ADVANCE HOW MANY
+TIMES WE WANT TO REPEAT BLOCK OF CODE.
+
+------------------------------------------------------------------
+for loop - used when we know in advance how many times we want to repeat same block of code

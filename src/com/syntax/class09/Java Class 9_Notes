@@ -1,0 +1,33 @@
+Class 09
+
+loops: do while, while, for, advance for loop
+keywords: break, continue
+
+while (true) {
+	
+	SOPln("Loop i"); //1 time
+	break;
+}
+
+for (int i=1; i<=5; i++) {
+	
+	continue;
+	SOPln("Loop i");//0 time
+}
+
+for (int i=1; i<=5; i++) {
+	
+	SOPln("Loop i");
+
+	for (int j=1; j<4; j++) {
+		SOPln("Loop j");
+	}
+}
+--------------------------------------
+
+advance for loop - CANE BE USED ONLY WITH ARRAYS OR COLLECTIONS
+
+
+
+
+

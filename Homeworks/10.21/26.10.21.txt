@@ -1,0 +1,31 @@
+1) 26.10.21.txt** В определенном предложении найти самое длинное и короткое слово.
+
+2)  *** Declare two local variables myStr1 and myStr2 of String type and assign a value “Cartoon” for first string and ”Tomcat”
+   for second.
+   *** Write code to display all of the letters, which are present in the first word, but absent in the second.
+
+3)   *** Вывести текст, составленный из последних букв всех слов.
+
+4)  *** Дано слово, состоящее из четного числа букв. Вывести на экран его первую половину, не используя оператор цикла.
+
+5)   *** Count chars of strings placed in the odd positions in the given array. For example: array = ["Hello", "world", "from", "array"]
+   the result will be 9: "Hello" length is 5 and "from" length is 4 "world" and "array" are skipped because they are on the even positions.
+
+6)   *** Implement method hasNoneLetters. Method returns true if none of the letters in the blacklist are present in the phrase.
+   If at least one letter from blacklist is present in the phrase return false. Comparison should be case insensitive. Meaning 'A' == 'a'.
+
+7)   *** Дана строка.Указать те слова, которые содержат хотя бы одну букву k.
+   *** В строке между словами вставить вместо пробела запятую и пробел.
+
+8) *** Дан массив строк, содержащий текст, заканчивающийся точкой. Вывести на экран слова, содержащие три буквы .
+   *** Преобразовать данный текст, заменив каждую строку вида переменная=переменная+1; на строку вида переменная++; а каждую строку вида
+   переменная=переменная–1;на строку вида переменная–– .
+
+9)   *** В заданной строке удалить первый символ.
+
+10) *** В заданной строке посчитать количество точек и запятых.
+
+11) *** В заданной строке найти месторасположение первого символа «*».
+
+
+ enum продолжение

@@ -1,0 +1,46 @@
+Collections framework:
+Collections framework in javas is a collection of classes and interfaces that help
+us store and manipulate data easily.
+ArrayList:
+ArrayList is a class in collections framework that helps us store elements based on indexes
+we don't need to provide the size upfront, and we have several built-in methods to manipulate
+the data.
+Declaration of arrays
+String[] names={"Hilal","Dinara"};
+String[] names=new int[5];
+To declare the arraylist
+ArrayList<String> names=new ArrayList<>();
+Syntax to store the elements in an arrayList
+names.add("Hilal");
+names.add("Dinara");
+to retrieve the elements we use
+names.get(i);
+Benefits of Arrays:
+1) ArrayLists are not fixed in size that can grow and shrink dynamically.
+2) Built-in methods to manipulate the data
+Properties:
+1) Maintains the order.
+2) we can add duplicate elements
+Common Methods of Collection:
+add()=> Helps us to add the elements in the arrayList
+get()=> returns the elements by index
+remove()=> helps use remove the elements from the arrayList two overloaded versions
+one requires the index the other one requires the actual object to be removed
+size()=> returns the number of elements that are present in the arrayList.
+set(index,object)=> replaces the element at specified index.
+Note:
+As ArrayLists can change their size at runtime we should not use loops if we are
+removing/adding something to the list.
+Wrapper classes:
+wrapper classes are object classes for each primitive data types
+they are used with the collections' framework
+we can use methods from these classes to convert one datatype to other.
+Boxing/AutoBoxing:
+Storing a primitive into an object wrapper class is called boxing/autoBoxing
+if we are using the longer way
+Integer number=new Integer(12);  //boxing
+Integer number2=15;    //autoboxing
+UnBoxing/AutoUnBoxing:
+conversion of a wrapper type to primitive type is called unboxing or autoUnboxing
+
+

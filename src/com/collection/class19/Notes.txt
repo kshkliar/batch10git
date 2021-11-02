@@ -1,0 +1,18 @@
+Constructors:
+    Is a special block of code that helps us build/initialize(give initial values to fields)
+    our objects.
+    when we write new className(); the code inside the no argument
+    constructor is executed.
+    when we do not provide a constructor a default no argument constructor
+    is provided by compiler.
+    if we have multiple constructors java will check the number of arguments and type of
+    arguments to decide which constructor to execute.
+    if we have same number of parameters and their datatype are also same
+    we will get an error as now Java can not decide which constructor to call
+This()
+this keyword when used with parenthesis calls the constructor of a class which constructor to call
+is decided based on the data type of arguments that we are passing.
+It helps us reduce duplicate code as n real life projects we might be writing a lot of constructors
+
+
+

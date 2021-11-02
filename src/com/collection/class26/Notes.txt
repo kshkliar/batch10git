@@ -1,0 +1,61 @@
+Casting in Non Primitives:
+As we can convert primitive data types with the help of casting we can do the same
+with non primitives.
+Rules:
+Parent classes are considered big data type in non primitives
+we can store the object of a child class in a variable of type Parent.
+
+class Parent{
+String name;
+void printName(){
+}
+}
+class Child extends Parent{
+
+void myOwnMethod{
+
+}
+}
+
+Parent parent=new Child();
+parent.myOwnMethod()// CE
+we can do above assignment but can't do the reverse
+Child child=new Parent(); //CE error
+Benefits of casting:
+we can achieve run time polymorphism using casting and method overriding
+we can store the objects of all the child classes in arrays or some other data structures
+we can write dynamic code to access all those objects and execute the same methods on different objects.
+when we store a child class object in a parent type variable we can't call child class specific methods
+if we want to call child class methods we can do so but we have to cast that object first.
+Its called run-time polymorphism/late binding.
+Final keyword:
+1) final with variables if we use final keyword with variables we can' change their values
+2) if we use final with method we can not override that method in child class
+3) if we use final with a class we can not inherit from that class.
+
+Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
+Define common behavior within and some fields in parent class and override some of the methods in child classes
+Define some methods specific to child classes
+Create objects of child classes and store them into array. Loop through each object and execute available methods.
+
+================================================================================================================
+Abstraction
+is a process of hiding implementation details and only sh
+Interview question:
+How we can achieve multiple inheritance in Java?
+With the help of interfaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+ctrl + d - duplication code   скопировать код( курсор в конце кода)
+//когда решаешь задачи ищи в заданиях закономерности
+ctrl + alt + l - format code
+ctrl + alt + o - delete unuseful imports
+ctrl + y - delete line
+shift + F6 - rename
+ctrl + shift + f10 - run psvm
+ctrl + shift + / - /**/
+ctrl + / - //
+ctrl + shift + enter - create body + format + move to it
+ctrl+z  - undo
+ctrl+y- redo
+Ctrl+N -создать конструктор , геттре сеттер
+Alt+Enter -импортировать класс из другой папки/пакета
+import + имя пакета+.+ *+; -импортировать все классы с данного пакета
+Fn +alt+ insert-  Генератор кода — сеттеров, зависимостей в pom.xml и тд
+Нажать колесиком мышки -вызвать спецификациию
