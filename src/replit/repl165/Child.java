@@ -1,4 +1,4 @@
-package repl165;
+package replit.repl165;
 
 class Child extends Parent{
     public void PublicMethod(){

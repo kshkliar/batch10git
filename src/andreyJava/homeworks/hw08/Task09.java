@@ -16,6 +16,6 @@ public class Task09 {
 
     public static String removeCharAt(String s) {
         return s.substring(1);
-    }
+    }//возвращает подстроку строки с индексом символа
 }
 

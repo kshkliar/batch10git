@@ -1,7 +1,7 @@
-package repl153;
+package replit.repl153;
 
 class Child extends Parent {
     Child() {
-        super();
+        super();//обращаемся к родительскому конструктору
     }
 }

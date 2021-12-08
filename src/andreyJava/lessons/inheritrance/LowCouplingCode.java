@@ -34,10 +34,6 @@ class NewCode {
     }
 }
 
-interface Printable {
-    void print();
-}
-
 class One implements Printable {
     public void print() {
         System.out.println("One");

@@ -1,5 +1,21 @@
 package replit.Repl181;
-
+/*# Encapsulation
+Create Class Account
+Create the below variables:
+- acc_no;
+- name;
+- email;
+- double amount;
+Create the getter/setter methods for each variable.
+In Main Class and the main method.
+Using setter methods assign the values as:
+acc_no = 7560504000
+name = Sumair
+email = sumair@syntax.com
+amount = 50000.0
+Using getter methods print the values as below output.
+**Expected Output:**
+7560504000 Sumair sumair@syntax.com 50000.0*/
 class Account{
     String acc_no;
     String name;
@@ -7,7 +23,7 @@ class Account{
     double amount;
 
     Account(String acc_no,String name,String email,double amount){
-        Set_Acc(acc_no);
+        Set_Acc(acc_no);//поместили сюда сеттеры вместо ключегого слова this;
         Set_Name(name);
         Set_EMail(email);
         set_Amount(amount);

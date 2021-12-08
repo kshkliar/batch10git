@@ -15,7 +15,8 @@ public class MobileTester extends Mobile{
     }
 
     public static void main(String[] args) {
-        Mobile mobile = new Mobile("Iphone", "samsung", 8, 512);
+        Mobile mobile = new Mobile("Iphone", "samsung", 8,
+                512);
        // mobile.printModel();
         printHello();
     }

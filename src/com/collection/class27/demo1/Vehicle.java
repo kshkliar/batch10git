@@ -31,7 +31,7 @@ abstract class Car extends Vehicle{
 
     String carType;
     Car(String carType,String vinNumber){
-        super(vinNumber);
+        super(vinNumber);//it should be first line in constructor;
         this.carType=carType;
         System.out.println("Car constructor");
     }

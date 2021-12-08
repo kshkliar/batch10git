@@ -1,4 +1,4 @@
-package Repl174;
+package replit.Repl174;
 
 class Main implements MyInterface {
     public void method1(){

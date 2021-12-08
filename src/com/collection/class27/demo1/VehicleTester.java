@@ -6,7 +6,7 @@ public class VehicleTester {
         bmw.drive();
         bmw.start();
         bmw.stop();
-       // bmw.toString(); coming from Object class all the classes are automatically
+        bmw.toString(); //coming from Object class all the classes are automatically
         //inherit from that class.
         bmw.displayInfo();
         Vehicle.displayTotalVehicles();

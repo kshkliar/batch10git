@@ -10,7 +10,7 @@ public class Tester {
         bank.hasSaving();
         bank.hasCreditCard();
 
-        Bank.depositMoney();
+        Bank.depositMoney();//тут указываем имя интерфейса.
 
         BOA boa=new BOA();
         boa.trust();

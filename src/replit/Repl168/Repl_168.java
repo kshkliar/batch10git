@@ -1,5 +1,10 @@
-package Repl168;
-
+package replit.Repl168;
+/*For you to do:
+Create an instance final method that will reverse a String
+and return that new String
+Call method from the main method
+**Expected Output:**
+olleh*/
 class Main {
      String myString="hello";
 

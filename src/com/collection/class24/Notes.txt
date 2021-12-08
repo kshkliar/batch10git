@@ -28,7 +28,7 @@ Method overloading rules Rules:
     3) we can not overload by just changing the access modifier
     4) static methods can also be overloaded
     5) We can also overload the constructor of a class
-Var agrs
+Var args
 is a mechanism in java through which we can handle arrays and multi arguments of same type
 in a method parameter.
 we can treat the var agrs same as an array inside the method

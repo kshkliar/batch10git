@@ -7,7 +7,7 @@ public class Tester {
         car.stop();
         Drivable drivable=new Mercedes();
         drivable.drive();
-        ((Mercedes)drivable).start();
+        ((Mercedes)drivable).start();//мы можем даункасить с интерфейсами а потом вызывать их методы
         //drivable.start(); Not callable on interface variable
 
 

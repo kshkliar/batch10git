@@ -8,6 +8,20 @@ public class Bmw extends Vehicle {
         super(name, age);
         this.bmwModel = bmwModel;
     }
+
+    @Override
+    public void drive() {
+
+    }
+
+    @Override
+    void action() {
+
+    }
+}
+
+interface Drivable {
+    void drive();
 }
 
 class Fiat extends Vehicle {//is-a   отношение-одновременно и потомок и родитель -добавив новое поле получил класс фиат
@@ -19,12 +33,22 @@ class Fiat extends Vehicle {//is-a   отношение-одновременно
         this.fiatModel = fiatModel;
     }
 
+    @Override
+    public void drive() {
+
+    }
+
+    @Override
+    void action() {
+
+    }
+
     public String getFiatModel() {
         return fiatModel;
     }
 }
 
-class Vehicle {
+abstract class Vehicle implements Drivable {
     private String name;
     private int age;
 
@@ -32,6 +56,16 @@ class Vehicle {
         this.name = name;
         this.age = age;
     }
+
+    abstract void action();//абстрактные классы не имеют тела
+
+    /*@Override
+    public abstract void drive();*/
+
+   /* @Override
+    public void drive() {
+        System.out.println("Drive car");
+    }*/
 
     public String getName() {
         return name;
@@ -44,7 +78,8 @@ class Vehicle {
 
 class TestInheritance {
     public static void main(String[] args) {
-        Fiat fiat = new Fiat("Fiat", 10,"45");//обьект класса фиакт в который вынуждены передавать и параметры
+//        Fiat fiat = new Fiat("Fiat", 10,"45");//обьект класса фиакт в который вынуждены передавать и параметры
+        Drivable drivable = new Fiat("Fiat", 10,"45");//обьект класса фиат в который вынуждены передавать и параметры
    //     System.out.println(fiat);
 
     }

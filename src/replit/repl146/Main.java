@@ -1,4 +1,4 @@
-package repl146;
+package replit.repl146;
 
 class Main {
     public static void main(String[] args) {

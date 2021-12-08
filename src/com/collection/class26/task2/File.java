@@ -1,7 +1,5 @@
 package com.collection.class26.task2;
 
-import com.collection.class25.task1.Degree;
-
 public abstract class File {
     /*
     Create a class File that will have the following behaviors:
@@ -22,30 +20,32 @@ public abstract class File {
     }
 
 }
-class JavaFile extends File{
- void open(){
-     System.out.println("Use Intellij To open this file");
-}
+
+class JavaFile extends File {
+    void open() {
+        System.out.println("Use Intellij To open this file");
+    }
 
 }
-class PDFFile extends File implements UploadAble,DownloadAble {
-    void open(){
+
+class PDFFile extends File implements UploadAble, DownloadAble {
+    void open() {
         System.out.println("Use Adobe PDF Reader To open this file");
     }
 
-    @Override
+    @Override// zagruzit
     public void upload() {
         System.out.println("You can download this file as well");
     }
 
-    @Override
+    @Override// vigruzit
     public void downloadAble() {
         System.out.println("Downloading the file");
     }
 }
 
-class WordFile extends File{
-    void open(){
+class WordFile extends File {
+    void open() {
         System.out.println("Use MS Word To open this file");
     }
 }

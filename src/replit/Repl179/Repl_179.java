@@ -1,5 +1,13 @@
-package Repl179;
-
+package replit.Repl179;
+/*# Encapsulation
+Create Class EncapsulationDemo that will have 2 variables empName and empAge;
+Create the getter/setter methods for each variable.
+In Main Class and main method
+Using setter methods assign the values as "Mario" and "32"
+Using getter methods print the values as below outputs.
+ **Expected Output:**
+Employee Name: Mario
+Employee Age: 32*/
 class EncapsulationDemo{
     String empName;
     int empAge;

@@ -1,16 +1,20 @@
 package com.collection.class27.demo2;
 
 public interface Drivable {
-       boolean FAST=true;
-        void drive();
+    public final boolean FAST = true;
+
+    void drive();
 }
+
 abstract class Car {
-public void stop(){
-    System.out.println(" A car can stop");
+    public void stop() {
+        System.out.println(" A car can stop");
+    }
+
+    public abstract void start();
 }
-public abstract void start();
-}
-class Mercedes extends Car implements Drivable{
+
+class Mercedes extends Car implements Drivable {
 
     @Override
     public void drive() {

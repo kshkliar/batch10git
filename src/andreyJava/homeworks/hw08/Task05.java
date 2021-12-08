@@ -30,7 +30,7 @@ public class Task05 {
 
     public static void main(String[] args) {
 //        String[] arr = {"Hello", "world", "from", "array"};
-        String[] arr = {"Hello world from array"};
+        String[] arr = {"Hello", "world", "from", "array"};
 
         int num = countOddPositionChars(arr);
         System.out.println(num);

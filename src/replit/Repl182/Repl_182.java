@@ -1,4 +1,4 @@
-package Repl182;
+package replit.Repl182;
 
 class Main
 {

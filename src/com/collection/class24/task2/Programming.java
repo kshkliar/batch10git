@@ -12,6 +12,7 @@ public class Programming {
     Programming(){
         System.out.println("I love programming languages");
     }
+
     Programming(String value){
         System.out.println("I love "+value);
     }

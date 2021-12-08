@@ -19,10 +19,10 @@ public class LearnEnum {
 
         String c = "Ukraine";
 
-        Country country = Country.valueOf(c.toUpperCase());
+        Country country = Country.valueOf(c.toUpperCase());//переводит стинг в enam( или в то что нужно)
 
-        System.out.println(country.ordinal());
+        System.out.println(country.ordinal());//позиция обьекта енам в анаме.
 
-        Country[] values = Country.values();
+        Country[] values = Country.values();//метод возвращающий все обьекты в виде масива.
     }
 }

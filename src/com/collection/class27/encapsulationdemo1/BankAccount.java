@@ -35,7 +35,7 @@ public class BankAccount {
             this.name=name;
         }
     }
-
+    //если хочешь посмотрет ь баланс предоставь пароль
     double getBalance(String password){
         if(this.password.equals(password)){
             return balance;

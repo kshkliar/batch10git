@@ -7,12 +7,12 @@ public class LearnInterfaces {
 }
 
 interface Workable {
-    public static final int COUNT_PERSONS = 5;
+    public static final int COUNT_PERSONS = 5;//поля в интерфейсе константы
     public abstract void doIt();
 
     default void print() {
         System.out.println("1");
-    }
+    }// теперь методы могут иметь дефолт методы и статические
 
     static void stMethod() {
 
@@ -23,8 +23,8 @@ interface Workable {
     }*/
 }
 
-class Work implements Workable {
-    @Override
+class Work implements Workable {//реализует интерфейсб дает методам интерфейса тело
+    @Override //переопределить - дать другое тело
     public void doIt() {
         System.out.println("Do some work");
     }
