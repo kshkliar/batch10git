@@ -12,11 +12,14 @@ public class ArrayListDemo9 {
         subjects.add("Git");
         subjects.add("Selenium");
         subjects.add("TestNg");
-        for (int i = subjects.size(); i >=0; i--) {
+        for (int i = subjects.size(); i >=0; i--)
+
+    /*    {
             if(subjects.get(i).length()>4){
                 subjects.remove(i);
             }
-        }
+        }*/
         System.out.println(subjects);
     }
 }
+

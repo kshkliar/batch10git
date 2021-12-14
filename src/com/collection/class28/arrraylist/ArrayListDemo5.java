@@ -12,8 +12,7 @@ public class ArrayListDemo5 {
         list.add("Abdul");
 
         //Break 02:00
-        for (String name:list
-             ) {
+        for (String name:list) {
             System.out.println(name);
         }
         System.out.println("===================");

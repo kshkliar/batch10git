@@ -13,7 +13,10 @@ public class IteratorDemo {
         System.out.println(iterator.hasNext());
 
         System.out.println(iterator.next());
+        //t iavoid issues with loop we use iteratir method
+    ///    Itetator is a interface that it has next has next and remove methoa
         iterator.remove();
+
         System.out.println(subjects);
         System.out.println(iterator.next());
         System.out.println(iterator.hasNext());

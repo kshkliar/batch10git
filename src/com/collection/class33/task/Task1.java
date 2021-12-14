@@ -7,8 +7,13 @@ import java.util.Properties;
 
 public class Task1 {
     public static void main(String[] args) throws IOException {
+//To cancatinate path we have a special Class getProperty
+        String path=System.getProperty("user.dir")+"\\Files\\Task1.properties";//  we copy by Path from content root and out backwards slashes
 
-        String path=System.getProperty("user.dir")+"\\Files\\Task1.properties";
+        System.out.print(System.getProperty("user.dir"));//   this method to give us path dynamically
+        System.out.println(" our path that we have above -getProperty(user.dir- give us that");
+        System.out.println(path+ " The same ");// now the shortened path is appeared  -color well be changet to blue color
+
         FileInputStream fileInputStream= null;
         try {
             fileInputStream = new FileInputStream(path);
@@ -19,7 +24,7 @@ public class Task1 {
 
             properties.load(fileInputStream);
 
-        System.out.println(properties.get("browser"));
+        System.out.println(properties.get("browser"));//get properties from config file
         System.out.println(properties.get("url"));
         System.out.println(properties.get("username"));
         System.out.println(properties.get("password"));

@@ -11,16 +11,20 @@ public class Task2 {
         student.put(1, "Maria");
         student.put(2, "Jamil");
         student.put(3, "sharif");
+
+
         student.put(4, "Ana");
         student.put(5, "olena");
-
+        System.out.print("The size of Hashmap is "+ student.size());
+        System.out.println("-------------------------");
+//collection concept   values returns the collection that is why we call collection to store it
         Collection<String> values = student.values();
-        for(String students : values){
+        for (String students : values) {
             System.out.println(students);
         }
 
         Set<Integer> keys = student.keySet();
-        for(Integer key:keys){
+        for (Integer key : keys) {
             System.out.println(key);
         }
     }

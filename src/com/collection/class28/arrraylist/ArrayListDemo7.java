@@ -19,7 +19,7 @@ public class ArrayListDemo7 {
         list1.add("Abdul");
         list1.add("Andrei");
 
-        list.removeAll(list1);
+        list.removeAll(list1);// udalili chast lista s pervogo lista
         System.out.println(list);
        // System.out.println(list1);
     }

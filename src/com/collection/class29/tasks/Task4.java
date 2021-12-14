@@ -17,6 +17,7 @@ public class Task4 {
         }
 
         System.out.println(arrayList);
+
         Iterator<Integer> iterator= arrayList.iterator();
         while (iterator.hasNext()){
             if(iterator.next()%5==0){

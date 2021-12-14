@@ -21,7 +21,7 @@ public class Demo2 {
         map2.put(1274, "Olena4");
 
 
-        //map2.putAll(map);
+        //map2.putAll(map);  обьеденили мап 1 и мап 2
         System.out.println(map2);
         map2.remove(1244);
         System.out.println(map2.get(1264));

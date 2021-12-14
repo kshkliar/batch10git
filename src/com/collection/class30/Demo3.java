@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Demo3 {
     public static void main(String[] args) {
-        HashMap<String, Double> groceries = new HashMap<>();
+        HashMap<String, Double> groceries = new HashMap<>();//Keys -String , values -double;
         groceries.put("Egg", 12.0);
         groceries.put("tomato", 5.5);
         groceries.put("milk", 2.5);
@@ -13,7 +13,8 @@ public class Demo3 {
         System.out.println(groceries);
         groceries.put(null, null);
         groceries.put("shirt", null);
-       // groceries.put(null, 5.0);
+        // groceries.put(null, 5.0);
+
         groceries.put("Orange", null);
         groceries.replace("milk", 5.5);
         System.out.println(groceries);

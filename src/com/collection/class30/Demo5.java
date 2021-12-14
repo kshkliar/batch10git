@@ -12,7 +12,7 @@ public class Demo5 {
         grocery.put("milk", 4.3);
         grocery.put("tomato", 6.5);
         Set<String> mapKeys = grocery.keySet();
-        for(String key : mapKeys){
+        for (String key : mapKeys) {
             System.out.println(key);
         }
     }

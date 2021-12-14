@@ -21,3 +21,9 @@ ctr+О- чтобы переопределить методы родительс�
 нажми Ctrl+O и выбери в меню «Override methods.(Привыкай пользоваться горячими клавишами с начала, это ускоряет написание программ)
 ctrl+F  -поиск в том числе по регулярным выражениям.
 ctrl+R -выражение на которе хочешь заменить
+зажать alt+ левая клавиша мишы , выделить сразу несколько строк по линии которая необзодима
+introduce local variable - feature of inteligi if you do not know how it works in complex data structures;
+Double shift - class to import class automaticly;  -type autoimport - add unambiguos imports on the fly
+How to override - type to - that you will see override option  -select it and that is it.
+for debug put two red buttoms on the scope you need to debag and press run
+You can provide try catch block - more action  -when you have an exception

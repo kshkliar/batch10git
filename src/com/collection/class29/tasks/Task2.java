@@ -10,18 +10,18 @@ public class Task2 {
 // Break till 1:15
      */
     public static void main(String[] args) {
-        ArrayList<String> words=new ArrayList<>();
+        ArrayList<String> words = new ArrayList<>();
         words.add("10");
         words.add("nine");
         words.add("great");
         words.add("like");
         words.add("hike");
-        Iterator<String> iterator=words.iterator();
+        Iterator<String> iterator = words.iterator();
         // words.removeIf(word -> word.endsWith("e") || word.endsWith("E"));
 
-        while (iterator.hasNext()){
-            String word= iterator.next();
-            if(word.endsWith("e")||word.endsWith("E")){
+        while (iterator.hasNext()) {
+            String word = iterator.next();
+            if (word.endsWith("e") || word.endsWith("E")) {
                 iterator.remove();
             }
         }

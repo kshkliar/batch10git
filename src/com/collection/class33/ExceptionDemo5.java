@@ -23,7 +23,8 @@ public class ExceptionDemo5 {
         }catch (Exception e){
             System.out.println("Something went wrong");
         }finally {
-            System.out.print("10 ");
+            System.out.print("10 ");// I want this code be executed 1000% what ever happened
+            //it must be inserted inside try block;
         }
         System.out.print("11 ");
     }
