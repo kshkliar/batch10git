@@ -15,7 +15,7 @@ public class EmployeeTester {
         //employee.eat(); can't access no extends keyword
         Person.run();
         EmployeeFromOtherP.run();
-        //Person.takeLeaves(); inheritance is one way we can not do that
+        //Person.takeLeaves(); inheritance is one way we can not do that  It is Parent
         employee.empId="123";
         EmployeeFromOtherP.takeLeaves();
     }

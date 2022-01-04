@@ -11,16 +11,18 @@ And get total number of colors available in the set
 **Expected Output:**
 Original Hash Set: [Red, Pink, White, Yellow, Black]
 Size of the Hash Set: 5*/
-import java.util.*;
-class Main {
+
+import java.util.HashSet;
+
+class Maina {
     public static void main(String[] args) {
-        HashSet<String> mySet = new HashSet<>();
+        HashSet<String> mySet=new HashSet<>();
         mySet.add("Red");
         mySet.add("Pink");
         mySet.add("Yellow");
         mySet.add("White");
         mySet.add("Black");
-        System.out.println("Original Hash Set" + mySet);
-        System.out.println("Size of Has Set"+mySet.size());
+        System.out.println("Original Hash Set: "+mySet);
+        System.out.println("Size of the Hash Set: "+mySet.size());
     }
 }

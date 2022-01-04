@@ -17,7 +17,7 @@ class Contractor extends Employee{
     Contractor(String name,double salary){
         super(name,salary);
     }
-    @Override
+    @Override   //аннотации помогают избежать ошибок в компайл тайм
     void getPaid(){
         System.out.println(name+" is getting paid "+salary+"/hourly");
     }

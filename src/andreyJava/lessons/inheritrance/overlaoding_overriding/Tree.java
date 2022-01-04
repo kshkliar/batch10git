@@ -2,7 +2,11 @@ package andreyJava.lessons.inheritrance.overlaoding_overriding;
 
 public class Tree {
 
-    protected void print(int a) {
+    protected final void print(int a) {
+
+    }
+
+    public static void stMethod() {
 
     }
 }

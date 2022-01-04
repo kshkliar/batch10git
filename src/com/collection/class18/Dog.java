@@ -23,12 +23,12 @@ public class Dog {
         height=10;
         weight=10;
         breed="None";
-        color="None";
+        color="None";  //default value assigned , dogName  privides user
     }
 
     Dog(String dogName,int dogAge){
         //constructor 2
-        name=dogName;
+        name=dogName;// This time user can pass name and dogAge, other will be by default;
        age=dogAge;
         height=10;
         weight=10;

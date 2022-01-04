@@ -1,4 +1,5 @@
 package replit.Repl206;
+import java.util.HashMap;
 /*# Hash Map
 Create a Hash Map of String pairs
 add the follow values
@@ -26,20 +27,25 @@ TWO : BBB
 THREE : CCC*/
 import java.util.HashMap;
 import java.util.Map;
-class Main {
+import java.util.HashMap;
+
+import static javafx.scene.input.KeyCode.*;
+
+class Maina {
     public static void main(String[] args) {
-        Map<String,String> myMap=new HashMap<>();
-        myMap.put("ONE","AAA");
-        myMap.put("TWO","BBB");
-        myMap.put("THREE","CCC");
-        myMap.put("FOUR","DDD");
-        myMap.put("FIVE","EEE");
-        System.out.println("HashMap Before Remove :");
+
+        Map<String, String> myMap = new HashMap<>();
+        myMap.put("ONE", "AAA");
+        myMap.put("TWO", "BBB");
+        myMap.put("THREE", "CCC");
+        myMap.put("FOUR", "DDD");
+        myMap.put("FIVE", "EEE");
+        System.out.println("HASHMap Before Remove :");
         myMap.forEach((X,Y)-> System.out.println(X+" : "+Y));
-        System.out.println("------------------");
+        System.out.println("--------------");
         myMap.remove("ONE");
         myMap.remove("FOUR");
-        System.out.println("HashMap After Remove :");
+        System.out.println("HASHMap After Remove: ");
         myMap.forEach((key, value) -> System.out.println(key + " : " + value));
     }
 }

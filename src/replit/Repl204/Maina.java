@@ -18,18 +18,20 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-class Main {
+class Maina {
     public static void main(String[] args) {
         Map<String, String> myMap = new LinkedHashMap<>();
         myMap.put("Street", "Patrick ST");
         myMap.put("Suite", "265");
         myMap.put("City", "Vienna");
         myMap.put("Zip", "22180");
-        myMap.put("Country", "United State");
-        Iterator<Map.Entry<String, String>> iterator = myMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-            Map.Entry<String, String> entry = iterator.next();
+        myMap.put("Country", "United Stetes");
+
+        Iterator<Map.Entry<String, String>> iteratar = myMap.entrySet().iterator();
+        while (iteratar.hasNext()) {
+            Map.Entry<String, String> entry = iteratar.next();
             System.out.println(entry.getValue());
         }
+
     }
 }

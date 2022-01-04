@@ -18,7 +18,7 @@ public class Programming {
     }
 
     public static void main(String[] args) {
-        new Programming();
+        new Programming();// we do not need this object again that is why we did not store it in variable;
         new Programming("Python");
         //new Programming(1); error because no matching constructor
     }

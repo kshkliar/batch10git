@@ -9,4 +9,8 @@ public class Oak extends Tree {
     public void action(int b) {
         print(4);
     }
+
+    public static void stMethod() {
+
+    }
 }

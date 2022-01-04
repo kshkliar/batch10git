@@ -27,3 +27,10 @@ Double shift - class to import class automaticly;  -type autoimport - add unambi
 How to override - type to - that you will see override option  -select it and that is it.
 for debug put two red buttoms on the scope you need to debag and press run
 You can provide try catch block - more action  -when you have an exception
+исключить класс с ошибкой - игнорировать двойной клик шифт и написать Excludes ;- go to packeg that have issues  put apply
+Shift+F6 - select Refactor | Rename. next to the highlighted element.
+ctrl+tab  -navigate to the last file that you were editing
+ // we see return type  on right side of the methos that we choose
+ foreach+ enter - shortcut for foreach loop
+ surraunding by rty catch -
+ java doc - clash double ** +enter

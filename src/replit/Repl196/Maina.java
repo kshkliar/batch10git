@@ -1,5 +1,5 @@
 package replit.Repl196;
-/*Create a Set  and add below values to it.
+/*Create a Set and and below values to it.
 [third, first, second]
 Print HashSet and then remove all the elements from Hashset and print it again.
 **Expected Output:**
@@ -8,10 +8,9 @@ Print HashSet and then remove all the elements from Hashset and print it again.
 
 import java.util.HashSet;
 
-class Main {
+class Maina {
     public static void main(String[] args) {
-
-        HashSet<String> mySet = new HashSet<>();
+        HashSet<String> mySet=new HashSet<>();
         mySet.add("third");
         mySet.add("first");
         mySet.add("second");

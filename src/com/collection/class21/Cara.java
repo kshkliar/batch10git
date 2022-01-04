@@ -10,7 +10,7 @@ public class Cara {
     }
 
     Cara(String model) {
-       this();// -g
+       this();// -default constructor will be called
         this.model = model;
         this.make = "None";
         this.year = 0;
@@ -25,7 +25,7 @@ public class Cara {
     }
 
     Cara(String make, String model, int year) {
-       this(model, make);
+       this(model, make);//we reduce dublication by passing model, make, inside ()
         this.year = year;
         System.out.println("Constructor with 3 parameters");
     }
